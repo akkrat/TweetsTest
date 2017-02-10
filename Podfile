@@ -5,6 +5,8 @@ target 'TweetsTest' do
   # use_frameworks!
 
   pod 'SBJson5', '~> 5.0'
+  pod 'Typhoon', '~> 3.6'
+  pod 'FMDB', '~> 2.6'
 
   target 'TweetsTestTests' do
     inherit! :search_paths

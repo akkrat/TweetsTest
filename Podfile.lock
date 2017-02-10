@@ -1,12 +1,27 @@
 PODS:
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
   - SBJson5 (5.0.0)
+  - Typhoon (3.6.0):
+    - Typhoon/DeallocNotifier (= 3.6.0)
+    - Typhoon/IntrospectionUtils (= 3.6.0)
+    - Typhoon/no-arc (= 3.6.0)
+  - Typhoon/DeallocNotifier (3.6.0)
+  - Typhoon/IntrospectionUtils (3.6.0)
+  - Typhoon/no-arc (3.6.0):
+    - Typhoon/IntrospectionUtils
 
 DEPENDENCIES:
+  - FMDB (~> 2.6)
   - SBJson5 (~> 5.0)
+  - Typhoon (~> 3.6)
 
 SPEC CHECKSUMS:
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
   SBJson5: 20d321dc587addeb3b21466d13de2f99dc8fe620
+  Typhoon: 551cc8fae881d0f4b20ddafc6d276da3e867f61f
 
-PODFILE CHECKSUM: ace0f410c93e00c81be95cc720cfb0ef30a543b0
+PODFILE CHECKSUM: 36b9e62a3eaaa5ff3b2e3765997a6020d7eca991
 
 COCOAPODS: 1.2.0.beta.1
