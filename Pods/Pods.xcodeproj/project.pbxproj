@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05D59D4FDFFB1908C98A7180E51EEA43 /* SBJson5Writer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D2E3A4125EF103DE50A8D60E697B369 /* SBJson5Writer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C0AA3D14AC6360E4F1E0A533AA3E907 /* SBJson5StreamWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = BE3E9D46A1CA4D1CF7754B0722D1F986 /* SBJson5StreamWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E829301E59EBB4803C37BAE063D85E4 /* SBJson5StreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = 287F8E39147210624140E9B5381E9129 /* SBJson5StreamParserState.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0E92DE51E40601B70A3A02575D642388 /* Pods-TweetsTestTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C28A9CAEE2D64A4E410C3AD9FEBAEB9F /* Pods-TweetsTestTests-dummy.m */; };
+		18A5C6EF1E439E6B4044D40520307CEF /* SBJson5StreamParserState.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B1F2717D71EF30A6249EAF4113AF069 /* SBJson5StreamParserState.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2290DB8AA61DAADBC537024DDABFF0FC /* SBJson5Parser.h in Headers */ = {isa = PBXBuildFile; fileRef = 30F4E319355DDF8E85D37CD957AD0C08 /* SBJson5Parser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EECCB433221CEF37AA2BE7ECF8E5635 /* SBJson5StreamWriterState.h in Headers */ = {isa = PBXBuildFile; fileRef = 28467AB5CAC87F763413E93DA8D4612F /* SBJson5StreamWriterState.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		42386ABD82517040809561E682DAB32D /* SBJson5StreamParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F2091AC055B89EB218992DB7C8D9D09 /* SBJson5StreamParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44F4D34FD2BE02AB3B9918330917C53F /* Pods-TweetsTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5C1AB240267A43B29BB10E76D581E7 /* Pods-TweetsTest-dummy.m */; };
+		4C8AAFFC1AD0E15876FCFECC7CC1F347 /* SBJson5StreamTokeniser.h in Headers */ = {isa = PBXBuildFile; fileRef = 905F4671FCE7343DD9F8562AAC241D06 /* SBJson5StreamTokeniser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69EA110554F7B4A08FE5D5FE3D24A89D /* SBJson5StreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAD6A55A11AF120FC6BA1CCB2CC32AD /* SBJson5StreamWriterState.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		73558B27E62D1972A43D35B3B19B75F6 /* SBJson5StreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 308A9DAF47A911954E59D1DA0E5180BC /* SBJson5StreamWriter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		85CF6EAE2A981F22E9F0B849345332DD /* SBJson5.h in Headers */ = {isa = PBXBuildFile; fileRef = 1242DB6DED8CD7E4E13733F74F1963EF /* SBJson5.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8AA7F3C19A130626B0D81FECE4F8C5C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		94E2F7FA7DEC7A6C36C94B51F06795FF /* SBJson5Writer.m in Sources */ = {isa = PBXBuildFile; fileRef = C213DA7616A7AD09ACA9A7BE77DA01E5 /* SBJson5Writer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B2636149B0F7640920A5EEC0649DC933 /* SBJson5Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = 53684B3EE8ED8F58E9DA3643109BB59C /* SBJson5Parser.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B56598A774B1EA405FF1BF6B2096D827 /* SBJson5-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF71553AC4513A573CF880094A4BBEB7 /* SBJson5-dummy.m */; };
+		D9882620EFD921CCB051FE47366C4856 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		E01DAB8D2682E27173B05F81D9E681F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		E859D0ADB8FC70986080BA24A16EE839 /* SBJson5StreamTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F93A560D415316CAC566682EC84D165 /* SBJson5StreamTokeniser.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FEB6006CB196B1FB8A8CD0CA3D2935CE /* SBJson5StreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = D1433884B94CAB071867323AE5EE2706 /* SBJson5StreamParser.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8372EE8B4FD0EC44DA3891C233A40554 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBC325724AD1D24EF6CFDC2E03ABA126;
+			remoteInfo = SBJson5;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D2E3A4125EF103DE50A8D60E697B369 /* SBJson5Writer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SBJson5Writer.h; path = Classes/SBJson5Writer.h; sourceTree = "<group>"; };
+		0E20B96060C5C40FA35F5676E18A4912 /* Pods-TweetsTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TweetsTest.debug.xcconfig"; sourceTree = "<group>"; };
+		0F2091AC055B89EB218992DB7C8D9D09 /* SBJson5StreamParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SBJson5StreamParser.h; path = Classes/SBJson5StreamParser.h; sourceTree = "<group>"; };
+		1242DB6DED8CD7E4E13733F74F1963EF /* SBJson5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SBJson5.h; path = Classes/SBJson5.h; sourceTree = "<group>"; };
+		25374A1EC2987271DDFB6A41D541670B /* Pods-TweetsTestTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TweetsTestTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		28467AB5CAC87F763413E93DA8D4612F /* SBJson5StreamWriterState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SBJson5StreamWriterState.h; path = Classes/SBJson5StreamWriterState.h; sourceTree = "<group>"; };
+		287F8E39147210624140E9B5381E9129 /* SBJson5StreamParserState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SBJson5StreamParserState.m; path = Classes/SBJson5StreamParserState.m; sourceTree = "<group>"; };
+		2B1F2717D71EF30A6249EAF4113AF069 /* SBJson5StreamParserState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SBJson5StreamParserState.h; path = Classes/SBJson5StreamParserState.h; sourceTree = "<group>"; };
+		305363AF597F0353C7276A8E5E30A286 /* Pods-TweetsTestTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TweetsTestTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		308A9DAF47A911954E59D1DA0E5180BC /* SBJson5StreamWriter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SBJson5StreamWriter.m; path = Classes/SBJson5StreamWriter.m; sourceTree = "<group>"; };
+		30F4E319355DDF8E85D37CD957AD0C08 /* SBJson5Parser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SBJson5Parser.h; path = Classes/SBJson5Parser.h; sourceTree = "<group>"; };
+		407F40BF815F96B8D647875491193900 /* Pods-TweetsTestTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TweetsTestTests-frameworks.sh"; sourceTree = "<group>"; };
+		47C3ED6F409324FEB0DC02B4955013F7 /* Pods-TweetsTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TweetsTest-acknowledgements.plist"; sourceTree = "<group>"; };
+		4CAD6A55A11AF120FC6BA1CCB2CC32AD /* SBJson5StreamWriterState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SBJson5StreamWriterState.m; path = Classes/SBJson5StreamWriterState.m; sourceTree = "<group>"; };
+		4F93A560D415316CAC566682EC84D165 /* SBJson5StreamTokeniser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SBJson5StreamTokeniser.m; path = Classes/SBJson5StreamTokeniser.m; sourceTree = "<group>"; };
+		53684B3EE8ED8F58E9DA3643109BB59C /* SBJson5Parser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SBJson5Parser.m; path = Classes/SBJson5Parser.m; sourceTree = "<group>"; };
+		572B2821618EDB43E2657F723E687284 /* SBJson5.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SBJson5.xcconfig; sourceTree = "<group>"; };
+		5E8A17703020EB26DB3C5047ADC7E4F3 /* libPods-TweetsTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TweetsTest.a"; path = "libPods-TweetsTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74D89464ABB349F1FD3905B38FEC305F /* Pods-TweetsTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TweetsTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		819B40182AFAD79C8D69D2607C538FA9 /* libSBJson5.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSBJson5.a; path = libSBJson5.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		905F4671FCE7343DD9F8562AAC241D06 /* SBJson5StreamTokeniser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SBJson5StreamTokeniser.h; path = Classes/SBJson5StreamTokeniser.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		947C4AFF35A9895F0E8F505A935895C5 /* Pods-TweetsTest-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TweetsTest-resources.sh"; sourceTree = "<group>"; };
+		9B5C1AB240267A43B29BB10E76D581E7 /* Pods-TweetsTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TweetsTest-dummy.m"; sourceTree = "<group>"; };
+		A4EF2E2EF95CDC8F37833DD2CD3CC09D /* libPods-TweetsTestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TweetsTestTests.a"; path = "libPods-TweetsTestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA057AB0D23EC17E6D0C25EB47DA632A /* Pods-TweetsTestTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TweetsTestTests-resources.sh"; sourceTree = "<group>"; };
+		AFABEF3DB33B46E717B576D5B7DAFB72 /* SBJson5-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SBJson5-prefix.pch"; sourceTree = "<group>"; };
+		BE3E9D46A1CA4D1CF7754B0722D1F986 /* SBJson5StreamWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SBJson5StreamWriter.h; path = Classes/SBJson5StreamWriter.h; sourceTree = "<group>"; };
+		C0D41BB5686C65ADF5E147EDFA6067BF /* Pods-TweetsTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TweetsTest-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C213DA7616A7AD09ACA9A7BE77DA01E5 /* SBJson5Writer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SBJson5Writer.m; path = Classes/SBJson5Writer.m; sourceTree = "<group>"; };
+		C28A9CAEE2D64A4E410C3AD9FEBAEB9F /* Pods-TweetsTestTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TweetsTestTests-dummy.m"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D1433884B94CAB071867323AE5EE2706 /* SBJson5StreamParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SBJson5StreamParser.m; path = Classes/SBJson5StreamParser.m; sourceTree = "<group>"; };
+		D2F6D4B15677A6A8965DAFB7AA1E67E6 /* Pods-TweetsTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TweetsTest.release.xcconfig"; sourceTree = "<group>"; };
+		DB09C837A314873ABCADDDEF4EB215A1 /* Pods-TweetsTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TweetsTest-frameworks.sh"; sourceTree = "<group>"; };
+		E757D9FB33FD645E6EB855F841C2E298 /* Pods-TweetsTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TweetsTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		FF71553AC4513A573CF880094A4BBEB7 /* SBJson5-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SBJson5-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B832F65B3CD9841A90D8D32E0BFB09E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E01DAB8D2682E27173B05F81D9E681F3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E1CBF157660F05529ADB38C3B646F68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9882620EFD921CCB051FE47366C4856 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFDF5CDAB7EF6D73711F16B7A6D8E86E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AA7F3C19A130626B0D81FECE4F8C5C8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17910BE8206491D79155E5A6160ACD74 /* Pods-TweetsTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				25374A1EC2987271DDFB6A41D541670B /* Pods-TweetsTestTests-acknowledgements.markdown */,
+				305363AF597F0353C7276A8E5E30A286 /* Pods-TweetsTestTests-acknowledgements.plist */,
+				C28A9CAEE2D64A4E410C3AD9FEBAEB9F /* Pods-TweetsTestTests-dummy.m */,
+				407F40BF815F96B8D647875491193900 /* Pods-TweetsTestTests-frameworks.sh */,
+				AA057AB0D23EC17E6D0C25EB47DA632A /* Pods-TweetsTestTests-resources.sh */,
+				74D89464ABB349F1FD3905B38FEC305F /* Pods-TweetsTestTests.debug.xcconfig */,
+				E757D9FB33FD645E6EB855F841C2E298 /* Pods-TweetsTestTests.release.xcconfig */,
+			);
+			name = "Pods-TweetsTestTests";
+			path = "Target Support Files/Pods-TweetsTestTests";
+			sourceTree = "<group>";
+		};
+		20D563FC485062B78FFEDD4DA166318F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				572B2821618EDB43E2657F723E687284 /* SBJson5.xcconfig */,
+				FF71553AC4513A573CF880094A4BBEB7 /* SBJson5-dummy.m */,
+				AFABEF3DB33B46E717B576D5B7DAFB72 /* SBJson5-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SBJson5";
+			sourceTree = "<group>";
+		};
+		21FEAF089E4470E2D9827F4480B0C580 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD4C2DE3ADD35182CD5720018203A0F5 /* SBJson5 */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3BBF379C604E1DAF853DF5B564A15C31 /* Pods-TweetsTest */ = {
+			isa = PBXGroup;
+			children = (
+				C0D41BB5686C65ADF5E147EDFA6067BF /* Pods-TweetsTest-acknowledgements.markdown */,
+				47C3ED6F409324FEB0DC02B4955013F7 /* Pods-TweetsTest-acknowledgements.plist */,
+				9B5C1AB240267A43B29BB10E76D581E7 /* Pods-TweetsTest-dummy.m */,
+				DB09C837A314873ABCADDDEF4EB215A1 /* Pods-TweetsTest-frameworks.sh */,
+				947C4AFF35A9895F0E8F505A935895C5 /* Pods-TweetsTest-resources.sh */,
+				0E20B96060C5C40FA35F5676E18A4912 /* Pods-TweetsTest.debug.xcconfig */,
+				D2F6D4B15677A6A8965DAFB7AA1E67E6 /* Pods-TweetsTest.release.xcconfig */,
+			);
+			name = "Pods-TweetsTest";
+			path = "Target Support Files/Pods-TweetsTest";
+			sourceTree = "<group>";
+		};
+		6BA33A4C28E2825C44601C47D67031A5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BBF379C604E1DAF853DF5B564A15C31 /* Pods-TweetsTest */,
+				17910BE8206491D79155E5A6160ACD74 /* Pods-TweetsTestTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				21FEAF089E4470E2D9827F4480B0C580 /* Pods */,
+				C45EBDC248A199C5DE99A794CBCA5E19 /* Products */,
+				6BA33A4C28E2825C44601C47D67031A5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD4C2DE3ADD35182CD5720018203A0F5 /* SBJson5 */ = {
+			isa = PBXGroup;
+			children = (
+				1242DB6DED8CD7E4E13733F74F1963EF /* SBJson5.h */,
+				30F4E319355DDF8E85D37CD957AD0C08 /* SBJson5Parser.h */,
+				53684B3EE8ED8F58E9DA3643109BB59C /* SBJson5Parser.m */,
+				0F2091AC055B89EB218992DB7C8D9D09 /* SBJson5StreamParser.h */,
+				D1433884B94CAB071867323AE5EE2706 /* SBJson5StreamParser.m */,
+				2B1F2717D71EF30A6249EAF4113AF069 /* SBJson5StreamParserState.h */,
+				287F8E39147210624140E9B5381E9129 /* SBJson5StreamParserState.m */,
+				905F4671FCE7343DD9F8562AAC241D06 /* SBJson5StreamTokeniser.h */,
+				4F93A560D415316CAC566682EC84D165 /* SBJson5StreamTokeniser.m */,
+				BE3E9D46A1CA4D1CF7754B0722D1F986 /* SBJson5StreamWriter.h */,
+				308A9DAF47A911954E59D1DA0E5180BC /* SBJson5StreamWriter.m */,
+				28467AB5CAC87F763413E93DA8D4612F /* SBJson5StreamWriterState.h */,
+				4CAD6A55A11AF120FC6BA1CCB2CC32AD /* SBJson5StreamWriterState.m */,
+				0D2E3A4125EF103DE50A8D60E697B369 /* SBJson5Writer.h */,
+				C213DA7616A7AD09ACA9A7BE77DA01E5 /* SBJson5Writer.m */,
+				20D563FC485062B78FFEDD4DA166318F /* Support Files */,
+			);
+			name = SBJson5;
+			path = SBJson5;
+			sourceTree = "<group>";
+		};
+		C45EBDC248A199C5DE99A794CBCA5E19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E8A17703020EB26DB3C5047ADC7E4F3 /* libPods-TweetsTest.a */,
+				A4EF2E2EF95CDC8F37833DD2CD3CC09D /* libPods-TweetsTestTests.a */,
+				819B40182AFAD79C8D69D2607C538FA9 /* libSBJson5.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E8F2483CACDB1E96F78F5DA912E120B8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85CF6EAE2A981F22E9F0B849345332DD /* SBJson5.h in Headers */,
+				2290DB8AA61DAADBC537024DDABFF0FC /* SBJson5Parser.h in Headers */,
+				42386ABD82517040809561E682DAB32D /* SBJson5StreamParser.h in Headers */,
+				18A5C6EF1E439E6B4044D40520307CEF /* SBJson5StreamParserState.h in Headers */,
+				4C8AAFFC1AD0E15876FCFECC7CC1F347 /* SBJson5StreamTokeniser.h in Headers */,
+				0C0AA3D14AC6360E4F1E0A533AA3E907 /* SBJson5StreamWriter.h in Headers */,
+				3EECCB433221CEF37AA2BE7ECF8E5635 /* SBJson5StreamWriterState.h in Headers */,
+				05D59D4FDFFB1908C98A7180E51EEA43 /* SBJson5Writer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2AF8347F8266811794EE878295E0054C /* Pods-TweetsTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CCD50C4A85B96F7D0AE36F44EFEEA05 /* Build configuration list for PBXNativeTarget "Pods-TweetsTest" */;
+			buildPhases = (
+				73D3B61105EBBE46B73CCFABD93CBEC4 /* Sources */,
+				BFDF5CDAB7EF6D73711F16B7A6D8E86E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A361765450743B5524429ED9D3CADA53 /* PBXTargetDependency */,
+			);
+			name = "Pods-TweetsTest";
+			productName = "Pods-TweetsTest";
+			productReference = 5E8A17703020EB26DB3C5047ADC7E4F3 /* libPods-TweetsTest.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		96BF3010BD7F5FE853A975D7D85D9291 /* Pods-TweetsTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 821AB8B79EF2CAE32D051BE8B6B8060F /* Build configuration list for PBXNativeTarget "Pods-TweetsTestTests" */;
+			buildPhases = (
+				941F9C86A638E4915FFF80924641A1D0 /* Sources */,
+				6E1CBF157660F05529ADB38C3B646F68 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TweetsTestTests";
+			productName = "Pods-TweetsTestTests";
+			productReference = A4EF2E2EF95CDC8F37833DD2CD3CC09D /* libPods-TweetsTestTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CBC325724AD1D24EF6CFDC2E03ABA126 /* SBJson5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA28B991CC826F29B20B01EA9BFC79AC /* Build configuration list for PBXNativeTarget "SBJson5" */;
+			buildPhases = (
+				9CFD15FE69D7564D52CE6382050BF097 /* Sources */,
+				4B832F65B3CD9841A90D8D32E0BFB09E /* Frameworks */,
+				E8F2483CACDB1E96F78F5DA912E120B8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SBJson5;
+			productName = SBJson5;
+			productReference = 819B40182AFAD79C8D69D2607C538FA9 /* libSBJson5.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C45EBDC248A199C5DE99A794CBCA5E19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AF8347F8266811794EE878295E0054C /* Pods-TweetsTest */,
+				96BF3010BD7F5FE853A975D7D85D9291 /* Pods-TweetsTestTests */,
+				CBC325724AD1D24EF6CFDC2E03ABA126 /* SBJson5 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73D3B61105EBBE46B73CCFABD93CBEC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44F4D34FD2BE02AB3B9918330917C53F /* Pods-TweetsTest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		941F9C86A638E4915FFF80924641A1D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E92DE51E40601B70A3A02575D642388 /* Pods-TweetsTestTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CFD15FE69D7564D52CE6382050BF097 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B56598A774B1EA405FF1BF6B2096D827 /* SBJson5-dummy.m in Sources */,
+				B2636149B0F7640920A5EEC0649DC933 /* SBJson5Parser.m in Sources */,
+				FEB6006CB196B1FB8A8CD0CA3D2935CE /* SBJson5StreamParser.m in Sources */,
+				0E829301E59EBB4803C37BAE063D85E4 /* SBJson5StreamParserState.m in Sources */,
+				E859D0ADB8FC70986080BA24A16EE839 /* SBJson5StreamTokeniser.m in Sources */,
+				73558B27E62D1972A43D35B3B19B75F6 /* SBJson5StreamWriter.m in Sources */,
+				69EA110554F7B4A08FE5D5FE3D24A89D /* SBJson5StreamWriterState.m in Sources */,
+				94E2F7FA7DEC7A6C36C94B51F06795FF /* SBJson5Writer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A361765450743B5524429ED9D3CADA53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SBJson5;
+			target = CBC325724AD1D24EF6CFDC2E03ABA126 /* SBJson5 */;
+			targetProxy = 8372EE8B4FD0EC44DA3891C233A40554 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2004E40B677713D747A548C233AD5CD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 572B2821618EDB43E2657F723E687284 /* SBJson5.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SBJson5/SBJson5-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4FEA1164CC6EE82FA546147641B2081B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2F6D4B15677A6A8965DAFB7AA1E67E6 /* Pods-TweetsTest.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		BDF9ECB6BC94381AB50A583B745AA354 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74D89464ABB349F1FD3905B38FEC305F /* Pods-TweetsTestTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C830EAB5C5158EAD235C80F8BA048545 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 572B2821618EDB43E2657F723E687284 /* SBJson5.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SBJson5/SBJson5-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D49433969FD9367DDA0DF1595AAB3ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E757D9FB33FD645E6EB855F841C2E298 /* Pods-TweetsTestTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		EC627EC842788B149DB386380735995B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E20B96060C5C40FA35F5676E18A4912 /* Pods-TweetsTest.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CCD50C4A85B96F7D0AE36F44EFEEA05 /* Build configuration list for PBXNativeTarget "Pods-TweetsTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC627EC842788B149DB386380735995B /* Debug */,
+				4FEA1164CC6EE82FA546147641B2081B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		821AB8B79EF2CAE32D051BE8B6B8060F /* Build configuration list for PBXNativeTarget "Pods-TweetsTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDF9ECB6BC94381AB50A583B745AA354 /* Debug */,
+				D49433969FD9367DDA0DF1595AAB3ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA28B991CC826F29B20B01EA9BFC79AC /* Build configuration list for PBXNativeTarget "SBJson5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2004E40B677713D747A548C233AD5CD8 /* Debug */,
+				C830EAB5C5158EAD235C80F8BA048545 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
