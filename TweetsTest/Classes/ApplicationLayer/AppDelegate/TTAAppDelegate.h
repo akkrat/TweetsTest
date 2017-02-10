@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TTAAppDelegate.h
 //  TweetsTest
 //
 //  Created by a.protko on 10.02.17.
@@ -8,7 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface TTAAppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
 
 
 @end

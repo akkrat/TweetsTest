@@ -3,17 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		5302150AF3C2B2E7F5ACEB24 /* libPods-TweetsTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85B079CB769AE1FC8307E865 /* libPods-TweetsTest.a */; };
 		5AB719B856C6D0531C15F5DF /* libPods-TweetsTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F2A1A4159D4395C5C74BFDFD /* libPods-TweetsTestTests.a */; };
+		632B336A1E4E3FC700A168AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 632B33691E4E3FC700A168AF /* Assets.xcassets */; };
+		632B336B1E4E404700A168AF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63C4F2A21E4DF294000C721C /* Info.plist */; };
+		632B336D1E4E407C00A168AF /* TTAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C4F2951E4DF294000C721C /* TTAAppDelegate.m */; };
 		63C4F2931E4DF294000C721C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C4F2921E4DF294000C721C /* main.m */; };
-		63C4F2961E4DF294000C721C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C4F2951E4DF294000C721C /* AppDelegate.m */; };
-		63C4F2991E4DF294000C721C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C4F2981E4DF294000C721C /* ViewController.m */; };
 		63C4F29C1E4DF294000C721C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63C4F29A1E4DF294000C721C /* Main.storyboard */; };
-		63C4F29E1E4DF294000C721C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63C4F29D1E4DF294000C721C /* Assets.xcassets */; };
 		63C4F2A11E4DF294000C721C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63C4F29F1E4DF294000C721C /* LaunchScreen.storyboard */; };
 		63C4F2AC1E4DF294000C721C /* TweetsTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C4F2AB1E4DF294000C721C /* TweetsTestTests.m */; };
 /* End PBXBuildFile section */
@@ -29,14 +29,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		632B33691E4E3FC700A168AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63C4F28E1E4DF294000C721C /* TweetsTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TweetsTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63C4F2921E4DF294000C721C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		63C4F2941E4DF294000C721C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		63C4F2951E4DF294000C721C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		63C4F2971E4DF294000C721C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		63C4F2981E4DF294000C721C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		63C4F2941E4DF294000C721C /* TTAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTAAppDelegate.h; sourceTree = "<group>"; };
+		63C4F2951E4DF294000C721C /* TTAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTAAppDelegate.m; sourceTree = "<group>"; };
 		63C4F29B1E4DF294000C721C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		63C4F29D1E4DF294000C721C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63C4F2A01E4DF294000C721C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63C4F2A21E4DF294000C721C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63C4F2A71E4DF294000C721C /* TweetsTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TweetsTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,6 +68,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		63008C831E4E3A2800F73765 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				632B33691E4E3FC700A168AF /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		63008C841E4E3A8500F73765 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				63C4F29F1E4DF294000C721C /* LaunchScreen.storyboard */,
+				63C4F29A1E4DF294000C721C /* Main.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		63008C851E4E3AA200F73765 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				63008C871E4E3AC700F73765 /* ApplicationLayer */,
+				63008C861E4E3AC100F73765 /* CoreLayer */,
+				63008C891E4E3B2E00F73765 /* BussinessLogicLayer */,
+				63008C8A1E4E3B4D00F73765 /* PresentationLayer */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		63008C861E4E3AC100F73765 /* CoreLayer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CoreLayer;
+			sourceTree = "<group>";
+		};
+		63008C871E4E3AC700F73765 /* ApplicationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				63008C881E4E3AD700F73765 /* AppDelegate */,
+			);
+			path = ApplicationLayer;
+			sourceTree = "<group>";
+		};
+		63008C881E4E3AD700F73765 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				63C4F2941E4DF294000C721C /* TTAAppDelegate.h */,
+				63C4F2951E4DF294000C721C /* TTAAppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		63008C891E4E3B2E00F73765 /* BussinessLogicLayer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BussinessLogicLayer;
+			sourceTree = "<group>";
+		};
+		63008C8A1E4E3B4D00F73765 /* PresentationLayer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PresentationLayer;
+			sourceTree = "<group>";
+		};
 		63C4F2851E4DF294000C721C = {
 			isa = PBXGroup;
 			children = (
@@ -93,14 +157,9 @@
 		63C4F2901E4DF294000C721C /* TweetsTest */ = {
 			isa = PBXGroup;
 			children = (
-				63C4F2941E4DF294000C721C /* AppDelegate.h */,
-				63C4F2951E4DF294000C721C /* AppDelegate.m */,
-				63C4F2971E4DF294000C721C /* ViewController.h */,
-				63C4F2981E4DF294000C721C /* ViewController.m */,
-				63C4F29A1E4DF294000C721C /* Main.storyboard */,
-				63C4F29D1E4DF294000C721C /* Assets.xcassets */,
-				63C4F29F1E4DF294000C721C /* LaunchScreen.storyboard */,
-				63C4F2A21E4DF294000C721C /* Info.plist */,
+				63008C851E4E3AA200F73765 /* Classes */,
+				63008C841E4E3A8500F73765 /* Base.lproj */,
+				63008C831E4E3A2800F73765 /* Resources */,
 				63C4F2911E4DF294000C721C /* Supporting Files */,
 			);
 			path = TweetsTest;
@@ -109,9 +168,10 @@
 		63C4F2911E4DF294000C721C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				63C4F2A21E4DF294000C721C /* Info.plist */,
 				63C4F2921E4DF294000C721C /* main.m */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		63C4F2AA1E4DF294000C721C /* TweetsTestTests */ = {
@@ -193,6 +253,7 @@
 		63C4F2861E4DF294000C721C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = TTA;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = a.protko;
 				TargetAttributes = {
@@ -208,7 +269,7 @@
 				};
 			};
 			buildConfigurationList = 63C4F2891E4DF294000C721C /* Build configuration list for PBXProject "TweetsTest" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -231,8 +292,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				632B336B1E4E404700A168AF /* Info.plist in Resources */,
 				63C4F2A11E4DF294000C721C /* LaunchScreen.storyboard in Resources */,
-				63C4F29E1E4DF294000C721C /* Assets.xcassets in Resources */,
+				632B336A1E4E3FC700A168AF /* Assets.xcassets in Resources */,
 				63C4F29C1E4DF294000C721C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,8 +406,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63C4F2991E4DF294000C721C /* ViewController.m in Sources */,
-				63C4F2961E4DF294000C721C /* AppDelegate.m in Sources */,
+				632B336D1E4E407C00A168AF /* TTAAppDelegate.m in Sources */,
 				63C4F2931E4DF294000C721C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -375,6 +436,7 @@
 				63C4F29B1E4DF294000C721C /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		63C4F29F1E4DF294000C721C /* LaunchScreen.storyboard */ = {
@@ -383,6 +445,7 @@
 				63C4F2A01E4DF294000C721C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -428,7 +491,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -470,7 +533,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -483,7 +546,7 @@
 			baseConfigurationReference = D2492B5806A58A1AD17EF04E /* Pods-TweetsTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = TweetsTest/Info.plist;
+				INFOPLIST_FILE = "TweetsTest/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.protko.a.TweetsTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -495,7 +558,7 @@
 			baseConfigurationReference = 7E2EADE703E4FA5B41361A2A /* Pods-TweetsTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = TweetsTest/Info.plist;
+				INFOPLIST_FILE = "TweetsTest/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.protko.a.TweetsTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -547,6 +610,7 @@
 				63C4F2B21E4DF294000C721C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63C4F2B31E4DF294000C721C /* Build configuration list for PBXNativeTarget "TweetsTestTests" */ = {
 			isa = XCConfigurationList;
@@ -555,6 +619,7 @@
 				63C4F2B51E4DF294000C721C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
