@@ -7,6 +7,7 @@
 //
 
 #import "TTAAppDelegate.h"
+@import UIKit;
 
 @interface TTAAppDelegate ()
 
@@ -15,7 +16,7 @@
 @implementation TTAAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    
+
     return YES;
 }
 

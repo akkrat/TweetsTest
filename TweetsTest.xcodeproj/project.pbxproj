@@ -9,13 +9,46 @@
 /* Begin PBXBuildFile section */
 		5302150AF3C2B2E7F5ACEB24 /* libPods-TweetsTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85B079CB769AE1FC8307E865 /* libPods-TweetsTest.a */; };
 		5AB719B856C6D0531C15F5DF /* libPods-TweetsTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F2A1A4159D4395C5C74BFDFD /* libPods-TweetsTestTests.a */; };
+		631E1EA91E5D9959007133DD /* NSError+TTAErrors.m in Sources */ = {isa = PBXBuildFile; fileRef = 631E1EA81E5D9959007133DD /* NSError+TTAErrors.m */; };
 		632B336A1E4E3FC700A168AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 632B33691E4E3FC700A168AF /* Assets.xcassets */; };
-		632B336B1E4E404700A168AF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63C4F2A21E4DF294000C721C /* Info.plist */; };
 		632B336D1E4E407C00A168AF /* TTAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C4F2951E4DF294000C721C /* TTAAppDelegate.m */; };
+		6353320A1E5B3FFA00CF1335 /* TTATweetCellObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 635332091E5B3FFA00CF1335 /* TTATweetCellObject.m */; };
+		6353320D1E5B8E2500CF1335 /* TTATweetsListInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6353320C1E5B8E2500CF1335 /* TTATweetsListInteractor.m */; };
+		63AC671F1E5CE0240056D210 /* TTASettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AC671E1E5CE0240056D210 /* TTASettingsViewController.m */; };
+		63AC67241E5CE56C0056D210 /* TTASettingsServiceBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AC67231E5CE56C0056D210 /* TTASettingsServiceBase.m */; };
+		63AC67291E5CEAE20056D210 /* TTAServicesAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AC67281E5CEAE20056D210 /* TTAServicesAssembly.m */; };
+		63AC672E1E5CEEF00056D210 /* TTASettingsScreenAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AC672D1E5CEEF00056D210 /* TTASettingsScreenAssembly.m */; };
+		63C287F21E58654400EA418B /* TTAOperationsFactoryBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C287F11E58654400EA418B /* TTAOperationsFactoryBase.m */; };
+		63C287F51E58784200EA418B /* TTATimelineResponceValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C287F41E58784200EA418B /* TTATimelineResponceValidator.m */; };
+		63C287F81E587A0400EA418B /* TTATweetsMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C287F71E587A0400EA418B /* TTATweetsMapper.m */; };
+		63C287FB1E587BB500EA418B /* TTATweetMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C287FA1E587BB500EA418B /* TTATweetMapper.m */; };
+		63C287FE1E58987200EA418B /* TTATweetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C287FD1E58987200EA418B /* TTATweetCell.m */; };
+		63C288011E58B68000EA418B /* tweets.db in Resources */ = {isa = PBXBuildFile; fileRef = 63C288001E58B67D00EA418B /* tweets.db */; };
+		63C288041E58C19B00EA418B /* TTAFMDBDataStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C288031E58C19B00EA418B /* TTAFMDBDataStorage.m */; };
+		63C2880C1E5A32FD00EA418B /* TTATweetsListDataDisplayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C2880B1E5A32FD00EA418B /* TTATweetsListDataDisplayManager.m */; };
 		63C4F2931E4DF294000C721C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C4F2921E4DF294000C721C /* main.m */; };
 		63C4F29C1E4DF294000C721C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63C4F29A1E4DF294000C721C /* Main.storyboard */; };
 		63C4F2A11E4DF294000C721C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63C4F29F1E4DF294000C721C /* LaunchScreen.storyboard */; };
 		63C4F2AC1E4DF294000C721C /* TweetsTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C4F2AB1E4DF294000C721C /* TweetsTestTests.m */; };
+		63F029B31E4E877600149D6F /* Defaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63F029B21E4E877600149D6F /* Defaults.plist */; };
+		63F029B81E4F1E6700149D6F /* TTANetworkClientBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F029B71E4F1E6700149D6F /* TTANetworkClientBase.m */; };
+		63F029BC1E4F2C5A00149D6F /* TTATwitterRequestBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F029BB1E4F2C5A00149D6F /* TTATwitterRequestBuilder.m */; };
+		63F029C01E4F608500149D6F /* NSCharacterSet+TTANoEscaped.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F029BF1E4F608500149D6F /* NSCharacterSet+TTANoEscaped.m */; };
+		63F029C71E4FA46900149D6F /* TTATwitterHeadersBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F029C61E4FA46900149D6F /* TTATwitterHeadersBuilder.m */; };
+		63F029CB1E4FA81B00149D6F /* TTATwitterAuthorizationFieldBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F029CA1E4FA81B00149D6F /* TTATwitterAuthorizationFieldBuilder.m */; };
+		63F029CF1E4FBD6800149D6F /* TTATwitterNonceFieldBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F029CE1E4FBD6800149D6F /* TTATwitterNonceFieldBuilder.m */; };
+		63F029D31E4FC10900149D6F /* TTATwitterTimestampFieldBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F029D21E4FC10900149D6F /* TTATwitterTimestampFieldBuilder.m */; };
+		63F029D71E4FC3D100149D6F /* TTATwitterSignatureBaseStringBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F029D61E4FC3D100149D6F /* TTATwitterSignatureBaseStringBuilder.m */; };
+		63F029DC1E4FCA4D00149D6F /* TTAHMACSHA1HashingAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F029DB1E4FCA4D00149D6F /* TTAHMACSHA1HashingAlgorithm.m */; };
+		63F029DF1E4FCCBB00149D6F /* TTATwitterSignatureBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F029DE1E4FCCBB00149D6F /* TTATwitterSignatureBuilder.m */; };
+		63F029E21E55AFC500149D6F /* TTACoreAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F029E11E55AFC500149D6F /* TTACoreAssembly.m */; };
+		63F029E91E55D04D00149D6F /* TTATweet.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F029E81E55D04D00149D6F /* TTATweet.m */; };
+		63F029F31E56F89A00149D6F /* TTAJSONParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F029F21E56F89A00149D6F /* TTAJSONParser.m */; };
+		63F029F61E56FCBE00149D6F /* TTATweetListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F029F51E56FCBE00149D6F /* TTATweetListViewController.m */; };
+		63F029F91E56FDA600149D6F /* TTATweetListAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F029F81E56FDA600149D6F /* TTATweetListAssembly.m */; };
+		63F029FD1E5714FA00149D6F /* TTATweetsServiceBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F029FC1E5714FA00149D6F /* TTATweetsServiceBase.m */; };
+		63F02A011E57611600149D6F /* TTAAsyncOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F02A001E57611600149D6F /* TTAAsyncOperation.m */; };
+		63F02A071E5797A400149D6F /* TTANetworkOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F02A061E5797A400149D6F /* TTANetworkOperation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +62,41 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		631E1EA71E5D9959007133DD /* NSError+TTAErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+TTAErrors.h"; sourceTree = "<group>"; };
+		631E1EA81E5D9959007133DD /* NSError+TTAErrors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+TTAErrors.m"; sourceTree = "<group>"; };
 		632B33691E4E3FC700A168AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		635332081E5B3FFA00CF1335 /* TTATweetCellObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTATweetCellObject.h; path = ../CoreLayer/NetworkClient/TTATweetCellObject.h; sourceTree = "<group>"; };
+		635332091E5B3FFA00CF1335 /* TTATweetCellObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTATweetCellObject.m; path = ../CoreLayer/NetworkClient/TTATweetCellObject.m; sourceTree = "<group>"; };
+		6353320B1E5B8E2500CF1335 /* TTATweetsListInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTATweetsListInteractor.h; path = ../CoreLayer/TTATweetsListInteractor.h; sourceTree = "<group>"; };
+		6353320C1E5B8E2500CF1335 /* TTATweetsListInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTATweetsListInteractor.m; path = ../CoreLayer/TTATweetsListInteractor.m; sourceTree = "<group>"; };
+		6353320E1E5BA64000CF1335 /* TTAStorableObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTAStorableObject.h; path = NetworkClient/TTAStorableObject.h; sourceTree = "<group>"; };
+		63AC67191E5C73C20056D210 /* TTATweetsListInteractorInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTATweetsListInteractorInput.h; sourceTree = "<group>"; };
+		63AC671B1E5C741B0056D210 /* TTATweetsListInteractorOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTATweetsListInteractorOutput.h; sourceTree = "<group>"; };
+		63AC671D1E5CE0240056D210 /* TTASettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTASettingsViewController.h; sourceTree = "<group>"; };
+		63AC671E1E5CE0240056D210 /* TTASettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTASettingsViewController.m; sourceTree = "<group>"; };
+		63AC67211E5CE55C0056D210 /* TTASettingsService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTASettingsService.h; sourceTree = "<group>"; };
+		63AC67221E5CE56C0056D210 /* TTASettingsServiceBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTASettingsServiceBase.h; sourceTree = "<group>"; };
+		63AC67231E5CE56C0056D210 /* TTASettingsServiceBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTASettingsServiceBase.m; sourceTree = "<group>"; };
+		63AC67271E5CEAE20056D210 /* TTAServicesAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTAServicesAssembly.h; sourceTree = "<group>"; };
+		63AC67281E5CEAE20056D210 /* TTAServicesAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTAServicesAssembly.m; sourceTree = "<group>"; };
+		63AC672C1E5CEEF00056D210 /* TTASettingsScreenAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTASettingsScreenAssembly.h; sourceTree = "<group>"; };
+		63AC672D1E5CEEF00056D210 /* TTASettingsScreenAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTASettingsScreenAssembly.m; sourceTree = "<group>"; };
+		63C287EF1E5864BC00EA418B /* TTAOperationsFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTAOperationsFactory.h; sourceTree = "<group>"; };
+		63C287F01E58654400EA418B /* TTAOperationsFactoryBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTAOperationsFactoryBase.h; sourceTree = "<group>"; };
+		63C287F11E58654400EA418B /* TTAOperationsFactoryBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTAOperationsFactoryBase.m; sourceTree = "<group>"; };
+		63C287F31E58784200EA418B /* TTATimelineResponceValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTATimelineResponceValidator.h; sourceTree = "<group>"; };
+		63C287F41E58784200EA418B /* TTATimelineResponceValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTATimelineResponceValidator.m; sourceTree = "<group>"; };
+		63C287F61E587A0400EA418B /* TTATweetsMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTATweetsMapper.h; sourceTree = "<group>"; };
+		63C287F71E587A0400EA418B /* TTATweetsMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTATweetsMapper.m; sourceTree = "<group>"; };
+		63C287F91E587BB500EA418B /* TTATweetMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTATweetMapper.h; sourceTree = "<group>"; };
+		63C287FA1E587BB500EA418B /* TTATweetMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTATweetMapper.m; sourceTree = "<group>"; };
+		63C287FC1E58987200EA418B /* TTATweetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTATweetCell.h; path = ../CoreLayer/TTATweetCell.h; sourceTree = "<group>"; };
+		63C287FD1E58987200EA418B /* TTATweetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTATweetCell.m; path = ../CoreLayer/TTATweetCell.m; sourceTree = "<group>"; };
+		63C288001E58B67D00EA418B /* tweets.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = tweets.db; path = ../Classes/CoreLayer/tweets.db; sourceTree = "<group>"; };
+		63C288021E58C19B00EA418B /* TTAFMDBDataStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTAFMDBDataStorage.h; path = NetworkClient/TTAFMDBDataStorage.h; sourceTree = "<group>"; };
+		63C288031E58C19B00EA418B /* TTAFMDBDataStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTAFMDBDataStorage.m; path = NetworkClient/TTAFMDBDataStorage.m; sourceTree = "<group>"; };
+		63C2880A1E5A32FD00EA418B /* TTATweetsListDataDisplayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTATweetsListDataDisplayManager.h; sourceTree = "<group>"; };
+		63C2880B1E5A32FD00EA418B /* TTATweetsListDataDisplayManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTATweetsListDataDisplayManager.m; sourceTree = "<group>"; };
 		63C4F28E1E4DF294000C721C /* TweetsTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TweetsTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63C4F2921E4DF294000C721C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		63C4F2941E4DF294000C721C /* TTAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTAAppDelegate.h; sourceTree = "<group>"; };
@@ -40,6 +107,58 @@
 		63C4F2A71E4DF294000C721C /* TweetsTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TweetsTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63C4F2AB1E4DF294000C721C /* TweetsTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TweetsTestTests.m; sourceTree = "<group>"; };
 		63C4F2AD1E4DF294000C721C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63F029B21E4E877600149D6F /* Defaults.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Defaults.plist; sourceTree = "<group>"; };
+		63F029B51E4E8CE000149D6F /* TTANetworkClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTANetworkClient.h; sourceTree = "<group>"; };
+		63F029B61E4F1E6700149D6F /* TTANetworkClientBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTANetworkClientBase.h; sourceTree = "<group>"; };
+		63F029B71E4F1E6700149D6F /* TTANetworkClientBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTANetworkClientBase.m; sourceTree = "<group>"; };
+		63F029BA1E4F2C5A00149D6F /* TTATwitterRequestBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTATwitterRequestBuilder.h; sourceTree = "<group>"; };
+		63F029BB1E4F2C5A00149D6F /* TTATwitterRequestBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTATwitterRequestBuilder.m; sourceTree = "<group>"; };
+		63F029BE1E4F608500149D6F /* NSCharacterSet+TTANoEscaped.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCharacterSet+TTANoEscaped.h"; sourceTree = "<group>"; };
+		63F029BF1E4F608500149D6F /* NSCharacterSet+TTANoEscaped.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCharacterSet+TTANoEscaped.m"; sourceTree = "<group>"; };
+		63F029C41E4FA36400149D6F /* TTAHeadersBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTAHeadersBuilder.h; sourceTree = "<group>"; };
+		63F029C51E4FA46900149D6F /* TTATwitterHeadersBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTATwitterHeadersBuilder.h; sourceTree = "<group>"; };
+		63F029C61E4FA46900149D6F /* TTATwitterHeadersBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTATwitterHeadersBuilder.m; sourceTree = "<group>"; };
+		63F029C81E4FA6AA00149D6F /* TTAAuthorizationFieldBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTAAuthorizationFieldBuilder.h; sourceTree = "<group>"; };
+		63F029C91E4FA81B00149D6F /* TTATwitterAuthorizationFieldBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTATwitterAuthorizationFieldBuilder.h; sourceTree = "<group>"; };
+		63F029CA1E4FA81B00149D6F /* TTATwitterAuthorizationFieldBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTATwitterAuthorizationFieldBuilder.m; sourceTree = "<group>"; };
+		63F029CC1E4FBCFB00149D6F /* TTANonceFieldBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTANonceFieldBuilder.h; sourceTree = "<group>"; };
+		63F029CD1E4FBD6800149D6F /* TTATwitterNonceFieldBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTATwitterNonceFieldBuilder.h; sourceTree = "<group>"; };
+		63F029CE1E4FBD6800149D6F /* TTATwitterNonceFieldBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTATwitterNonceFieldBuilder.m; sourceTree = "<group>"; };
+		63F029D01E4FC01400149D6F /* TTATimestampFieldBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTATimestampFieldBuilder.h; sourceTree = "<group>"; };
+		63F029D11E4FC10900149D6F /* TTATwitterTimestampFieldBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTATwitterTimestampFieldBuilder.h; sourceTree = "<group>"; };
+		63F029D21E4FC10900149D6F /* TTATwitterTimestampFieldBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTATwitterTimestampFieldBuilder.m; sourceTree = "<group>"; };
+		63F029D41E4FC2E300149D6F /* TTASignatureBaseStringBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTASignatureBaseStringBuilder.h; sourceTree = "<group>"; };
+		63F029D51E4FC3D100149D6F /* TTATwitterSignatureBaseStringBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTATwitterSignatureBaseStringBuilder.h; sourceTree = "<group>"; };
+		63F029D61E4FC3D100149D6F /* TTATwitterSignatureBaseStringBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTATwitterSignatureBaseStringBuilder.m; sourceTree = "<group>"; };
+		63F029D81E4FC97700149D6F /* TTASignatureBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTASignatureBuilder.h; sourceTree = "<group>"; };
+		63F029D91E4FC9BB00149D6F /* TTAHashingAlghorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTAHashingAlghorithm.h; sourceTree = "<group>"; };
+		63F029DA1E4FCA4D00149D6F /* TTAHMACSHA1HashingAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTAHMACSHA1HashingAlgorithm.h; sourceTree = "<group>"; };
+		63F029DB1E4FCA4D00149D6F /* TTAHMACSHA1HashingAlgorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTAHMACSHA1HashingAlgorithm.m; sourceTree = "<group>"; };
+		63F029DD1E4FCCBB00149D6F /* TTATwitterSignatureBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTATwitterSignatureBuilder.h; sourceTree = "<group>"; };
+		63F029DE1E4FCCBB00149D6F /* TTATwitterSignatureBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTATwitterSignatureBuilder.m; sourceTree = "<group>"; };
+		63F029E01E55AFC500149D6F /* TTACoreAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTACoreAssembly.h; sourceTree = "<group>"; };
+		63F029E11E55AFC500149D6F /* TTACoreAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTACoreAssembly.m; sourceTree = "<group>"; };
+		63F029E61E55BCEF00149D6F /* TTARequestBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTARequestBuilder.h; sourceTree = "<group>"; };
+		63F029E71E55D04D00149D6F /* TTATweet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTATweet.h; sourceTree = "<group>"; };
+		63F029E81E55D04D00149D6F /* TTATweet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTATweet.m; sourceTree = "<group>"; };
+		63F029F01E56F81300149D6F /* TTAParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTAParser.h; sourceTree = "<group>"; };
+		63F029F11E56F89A00149D6F /* TTAJSONParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTAJSONParser.h; sourceTree = "<group>"; };
+		63F029F21E56F89A00149D6F /* TTAJSONParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTAJSONParser.m; sourceTree = "<group>"; };
+		63F029F41E56FCBE00149D6F /* TTATweetListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTATweetListViewController.h; path = ../CoreLayer/TTATweetListViewController.h; sourceTree = "<group>"; };
+		63F029F51E56FCBE00149D6F /* TTATweetListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTATweetListViewController.m; path = ../CoreLayer/TTATweetListViewController.m; sourceTree = "<group>"; };
+		63F029F71E56FDA600149D6F /* TTATweetListAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTATweetListAssembly.h; path = ../CoreLayer/TTATweetListAssembly.h; sourceTree = "<group>"; };
+		63F029F81E56FDA600149D6F /* TTATweetListAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTATweetListAssembly.m; path = ../CoreLayer/TTATweetListAssembly.m; sourceTree = "<group>"; };
+		63F029FA1E57016F00149D6F /* TTATweetsService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTATweetsService.h; path = ../CoreLayer/TTATweetsService.h; sourceTree = "<group>"; };
+		63F029FB1E5714FA00149D6F /* TTATweetsServiceBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTATweetsServiceBase.h; path = ../CoreLayer/TTATweetsServiceBase.h; sourceTree = "<group>"; };
+		63F029FC1E5714FA00149D6F /* TTATweetsServiceBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTATweetsServiceBase.m; path = ../CoreLayer/TTATweetsServiceBase.m; sourceTree = "<group>"; };
+		63F029FE1E5715DD00149D6F /* TTADataStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTADataStorage.h; path = NetworkClient/TTADataStorage.h; sourceTree = "<group>"; };
+		63F029FF1E57611600149D6F /* TTAAsyncOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTAAsyncOperation.h; sourceTree = "<group>"; };
+		63F02A001E57611600149D6F /* TTAAsyncOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTAAsyncOperation.m; sourceTree = "<group>"; };
+		63F02A051E5797A400149D6F /* TTANetworkOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTANetworkOperation.h; sourceTree = "<group>"; };
+		63F02A061E5797A400149D6F /* TTANetworkOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTANetworkOperation.m; sourceTree = "<group>"; };
+		63F02A081E5799DE00149D6F /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Common.h; path = ../CoreLayer/Common.h; sourceTree = "<group>"; };
+		63F02A091E57A2A500149D6F /* TTAValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTAValidator.h; sourceTree = "<group>"; };
+		63F02A0A1E57A32600149D6F /* TTAMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTAMapper.h; sourceTree = "<group>"; };
 		7E2EADE703E4FA5B41361A2A /* Pods-TweetsTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TweetsTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-TweetsTest/Pods-TweetsTest.release.xcconfig"; sourceTree = "<group>"; };
 		7F51196830FB97DB0D5F3A71 /* Pods-TweetsTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TweetsTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TweetsTestTests/Pods-TweetsTestTests.release.xcconfig"; sourceTree = "<group>"; };
 		85B079CB769AE1FC8307E865 /* libPods-TweetsTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TweetsTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +190,7 @@
 		63008C831E4E3A2800F73765 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				63C288001E58B67D00EA418B /* tweets.db */,
 				632B33691E4E3FC700A168AF /* Assets.xcassets */,
 			);
 			path = Resources;
@@ -88,6 +208,8 @@
 		63008C851E4E3AA200F73765 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				63AC67121E5C71B60056D210 /* Models */,
+				63F029BD1E4F5FB600149D6F /* Helpers */,
 				63008C871E4E3AC700F73765 /* ApplicationLayer */,
 				63008C861E4E3AC100F73765 /* CoreLayer */,
 				63008C891E4E3B2E00F73765 /* BussinessLogicLayer */,
@@ -99,6 +221,11 @@
 		63008C861E4E3AC100F73765 /* CoreLayer */ = {
 			isa = PBXGroup;
 			children = (
+				63AC67091E5C70610056D210 /* Assembly */,
+				63AC67081E5C70250056D210 /* Operations */,
+				63AC67071E5C70060056D210 /* DataStorage */,
+				63F029B91E4F24A800149D6F /* RequestBuilder */,
+				63F029B41E4E8C8600149D6F /* NetworkClient */,
 			);
 			path = CoreLayer;
 			sourceTree = "<group>";
@@ -123,6 +250,8 @@
 		63008C891E4E3B2E00F73765 /* BussinessLogicLayer */ = {
 			isa = PBXGroup;
 			children = (
+				63AC67261E5CEAB70056D210 /* Assembly */,
+				63AC67101E5C71510056D210 /* Services */,
 			);
 			path = BussinessLogicLayer;
 			sourceTree = "<group>";
@@ -130,8 +259,231 @@
 		63008C8A1E4E3B4D00F73765 /* PresentationLayer */ = {
 			isa = PBXGroup;
 			children = (
+				63AC671C1E5CDFFE0056D210 /* Settings */,
+				63AC67131E5C71FD0056D210 /* TweetsList */,
 			);
 			path = PresentationLayer;
+			sourceTree = "<group>";
+		};
+		63AC67071E5C70060056D210 /* DataStorage */ = {
+			isa = PBXGroup;
+			children = (
+				63F029FE1E5715DD00149D6F /* TTADataStorage.h */,
+				6353320E1E5BA64000CF1335 /* TTAStorableObject.h */,
+				63C288021E58C19B00EA418B /* TTAFMDBDataStorage.h */,
+				63C288031E58C19B00EA418B /* TTAFMDBDataStorage.m */,
+			);
+			name = DataStorage;
+			sourceTree = "<group>";
+		};
+		63AC67081E5C70250056D210 /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				63AC670C1E5C70C50056D210 /* Components */,
+				63AC670B1E5C70B30056D210 /* Factory */,
+				63AC670A1E5C70A60056D210 /* Operation */,
+			);
+			name = Operations;
+			sourceTree = "<group>";
+		};
+		63AC67091E5C70610056D210 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				63F029B21E4E877600149D6F /* Defaults.plist */,
+				63F029E01E55AFC500149D6F /* TTACoreAssembly.h */,
+				63F029E11E55AFC500149D6F /* TTACoreAssembly.m */,
+			);
+			name = Assembly;
+			sourceTree = "<group>";
+		};
+		63AC670A1E5C70A60056D210 /* Operation */ = {
+			isa = PBXGroup;
+			children = (
+				63F02A051E5797A400149D6F /* TTANetworkOperation.h */,
+				63F02A061E5797A400149D6F /* TTANetworkOperation.m */,
+				63F029FF1E57611600149D6F /* TTAAsyncOperation.h */,
+				63F02A001E57611600149D6F /* TTAAsyncOperation.m */,
+			);
+			name = Operation;
+			sourceTree = "<group>";
+		};
+		63AC670B1E5C70B30056D210 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				63C287EF1E5864BC00EA418B /* TTAOperationsFactory.h */,
+				63C287F01E58654400EA418B /* TTAOperationsFactoryBase.h */,
+				63C287F11E58654400EA418B /* TTAOperationsFactoryBase.m */,
+			);
+			name = Factory;
+			sourceTree = "<group>";
+		};
+		63AC670C1E5C70C50056D210 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				63AC670F1E5C71170056D210 /* Parser */,
+				63AC670E1E5C70ED0056D210 /* Validator */,
+				63AC670D1E5C70D50056D210 /* Mappers */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		63AC670D1E5C70D50056D210 /* Mappers */ = {
+			isa = PBXGroup;
+			children = (
+				63F02A0A1E57A32600149D6F /* TTAMapper.h */,
+				63C287F61E587A0400EA418B /* TTATweetsMapper.h */,
+				63C287F71E587A0400EA418B /* TTATweetsMapper.m */,
+				63C287F91E587BB500EA418B /* TTATweetMapper.h */,
+				63C287FA1E587BB500EA418B /* TTATweetMapper.m */,
+			);
+			name = Mappers;
+			sourceTree = "<group>";
+		};
+		63AC670E1E5C70ED0056D210 /* Validator */ = {
+			isa = PBXGroup;
+			children = (
+				63F02A091E57A2A500149D6F /* TTAValidator.h */,
+				63C287F31E58784200EA418B /* TTATimelineResponceValidator.h */,
+				63C287F41E58784200EA418B /* TTATimelineResponceValidator.m */,
+			);
+			name = Validator;
+			sourceTree = "<group>";
+		};
+		63AC670F1E5C71170056D210 /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				63F029F01E56F81300149D6F /* TTAParser.h */,
+				63F029F11E56F89A00149D6F /* TTAJSONParser.h */,
+				63F029F21E56F89A00149D6F /* TTAJSONParser.m */,
+			);
+			name = Parser;
+			sourceTree = "<group>";
+		};
+		63AC67101E5C71510056D210 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				63AC67251E5CE5750056D210 /* TweetsService */,
+				63AC67201E5CE54D0056D210 /* SettingsService */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		63AC67121E5C71B60056D210 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				63F029E71E55D04D00149D6F /* TTATweet.h */,
+				63F029E81E55D04D00149D6F /* TTATweet.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		63AC67131E5C71FD0056D210 /* TweetsList */ = {
+			isa = PBXGroup;
+			children = (
+				63AC67181E5C73300056D210 /* Assembly */,
+				63AC67161E5C730A0056D210 /* ViewController */,
+				63AC67171E5C731F0056D210 /* Interactor */,
+			);
+			name = TweetsList;
+			sourceTree = "<group>";
+		};
+		63AC67141E5C721B0056D210 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				63C287FC1E58987200EA418B /* TTATweetCell.h */,
+				63C287FD1E58987200EA418B /* TTATweetCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		63AC67151E5C72890056D210 /* CellObjects */ = {
+			isa = PBXGroup;
+			children = (
+				635332081E5B3FFA00CF1335 /* TTATweetCellObject.h */,
+				635332091E5B3FFA00CF1335 /* TTATweetCellObject.m */,
+			);
+			name = CellObjects;
+			sourceTree = "<group>";
+		};
+		63AC67161E5C730A0056D210 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				63C2880A1E5A32FD00EA418B /* TTATweetsListDataDisplayManager.h */,
+				63C2880B1E5A32FD00EA418B /* TTATweetsListDataDisplayManager.m */,
+				63F029F41E56FCBE00149D6F /* TTATweetListViewController.h */,
+				63F029F51E56FCBE00149D6F /* TTATweetListViewController.m */,
+				63AC67151E5C72890056D210 /* CellObjects */,
+				63AC67141E5C721B0056D210 /* Cells */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		63AC67171E5C731F0056D210 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				6353320B1E5B8E2500CF1335 /* TTATweetsListInteractor.h */,
+				6353320C1E5B8E2500CF1335 /* TTATweetsListInteractor.m */,
+				63AC67191E5C73C20056D210 /* TTATweetsListInteractorInput.h */,
+				63AC671B1E5C741B0056D210 /* TTATweetsListInteractorOutput.h */,
+			);
+			name = Interactor;
+			sourceTree = "<group>";
+		};
+		63AC67181E5C73300056D210 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				63F029F71E56FDA600149D6F /* TTATweetListAssembly.h */,
+				63F029F81E56FDA600149D6F /* TTATweetListAssembly.m */,
+			);
+			name = Assembly;
+			sourceTree = "<group>";
+		};
+		63AC671C1E5CDFFE0056D210 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				63AC672A1E5CEEAD0056D210 /* Assembly */,
+				63AC671D1E5CE0240056D210 /* TTASettingsViewController.h */,
+				63AC671E1E5CE0240056D210 /* TTASettingsViewController.m */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		63AC67201E5CE54D0056D210 /* SettingsService */ = {
+			isa = PBXGroup;
+			children = (
+				63AC67211E5CE55C0056D210 /* TTASettingsService.h */,
+				63AC67221E5CE56C0056D210 /* TTASettingsServiceBase.h */,
+				63AC67231E5CE56C0056D210 /* TTASettingsServiceBase.m */,
+			);
+			name = SettingsService;
+			sourceTree = "<group>";
+		};
+		63AC67251E5CE5750056D210 /* TweetsService */ = {
+			isa = PBXGroup;
+			children = (
+				63F029FA1E57016F00149D6F /* TTATweetsService.h */,
+				63F029FB1E5714FA00149D6F /* TTATweetsServiceBase.h */,
+				63F029FC1E5714FA00149D6F /* TTATweetsServiceBase.m */,
+			);
+			name = TweetsService;
+			sourceTree = "<group>";
+		};
+		63AC67261E5CEAB70056D210 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				63AC67271E5CEAE20056D210 /* TTAServicesAssembly.h */,
+				63AC67281E5CEAE20056D210 /* TTAServicesAssembly.m */,
+			);
+			name = Assembly;
+			sourceTree = "<group>";
+		};
+		63AC672A1E5CEEAD0056D210 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				63AC672C1E5CEEF00056D210 /* TTASettingsScreenAssembly.h */,
+				63AC672D1E5CEEF00056D210 /* TTASettingsScreenAssembly.m */,
+			);
+			name = Assembly;
 			sourceTree = "<group>";
 		};
 		63C4F2851E4DF294000C721C = {
@@ -181,6 +533,59 @@
 				63C4F2AD1E4DF294000C721C /* Info.plist */,
 			);
 			path = TweetsTestTests;
+			sourceTree = "<group>";
+		};
+		63F029B41E4E8C8600149D6F /* NetworkClient */ = {
+			isa = PBXGroup;
+			children = (
+				63F029B51E4E8CE000149D6F /* TTANetworkClient.h */,
+				63F029B61E4F1E6700149D6F /* TTANetworkClientBase.h */,
+				63F029B71E4F1E6700149D6F /* TTANetworkClientBase.m */,
+			);
+			path = NetworkClient;
+			sourceTree = "<group>";
+		};
+		63F029B91E4F24A800149D6F /* RequestBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				63F029E61E55BCEF00149D6F /* TTARequestBuilder.h */,
+				63F029BA1E4F2C5A00149D6F /* TTATwitterRequestBuilder.h */,
+				63F029BB1E4F2C5A00149D6F /* TTATwitterRequestBuilder.m */,
+				63F029C41E4FA36400149D6F /* TTAHeadersBuilder.h */,
+				63F029C51E4FA46900149D6F /* TTATwitterHeadersBuilder.h */,
+				63F029C61E4FA46900149D6F /* TTATwitterHeadersBuilder.m */,
+				63F029C81E4FA6AA00149D6F /* TTAAuthorizationFieldBuilder.h */,
+				63F029C91E4FA81B00149D6F /* TTATwitterAuthorizationFieldBuilder.h */,
+				63F029CA1E4FA81B00149D6F /* TTATwitterAuthorizationFieldBuilder.m */,
+				63F029CC1E4FBCFB00149D6F /* TTANonceFieldBuilder.h */,
+				63F029CD1E4FBD6800149D6F /* TTATwitterNonceFieldBuilder.h */,
+				63F029CE1E4FBD6800149D6F /* TTATwitterNonceFieldBuilder.m */,
+				63F029D01E4FC01400149D6F /* TTATimestampFieldBuilder.h */,
+				63F029D11E4FC10900149D6F /* TTATwitterTimestampFieldBuilder.h */,
+				63F029D21E4FC10900149D6F /* TTATwitterTimestampFieldBuilder.m */,
+				63F029D41E4FC2E300149D6F /* TTASignatureBaseStringBuilder.h */,
+				63F029D51E4FC3D100149D6F /* TTATwitterSignatureBaseStringBuilder.h */,
+				63F029D61E4FC3D100149D6F /* TTATwitterSignatureBaseStringBuilder.m */,
+				63F029D81E4FC97700149D6F /* TTASignatureBuilder.h */,
+				63F029D91E4FC9BB00149D6F /* TTAHashingAlghorithm.h */,
+				63F029DA1E4FCA4D00149D6F /* TTAHMACSHA1HashingAlgorithm.h */,
+				63F029DB1E4FCA4D00149D6F /* TTAHMACSHA1HashingAlgorithm.m */,
+				63F029DD1E4FCCBB00149D6F /* TTATwitterSignatureBuilder.h */,
+				63F029DE1E4FCCBB00149D6F /* TTATwitterSignatureBuilder.m */,
+			);
+			path = RequestBuilder;
+			sourceTree = "<group>";
+		};
+		63F029BD1E4F5FB600149D6F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				63F02A081E5799DE00149D6F /* Common.h */,
+				63F029BE1E4F608500149D6F /* NSCharacterSet+TTANoEscaped.h */,
+				63F029BF1E4F608500149D6F /* NSCharacterSet+TTANoEscaped.m */,
+				631E1EA71E5D9959007133DD /* NSError+TTAErrors.h */,
+				631E1EA81E5D9959007133DD /* NSError+TTAErrors.m */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		CAA018FE55D5DF0314789B8A /* Frameworks */ = {
@@ -292,9 +697,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				632B336B1E4E404700A168AF /* Info.plist in Resources */,
 				63C4F2A11E4DF294000C721C /* LaunchScreen.storyboard in Resources */,
 				632B336A1E4E3FC700A168AF /* Assets.xcassets in Resources */,
+				63F029B31E4E877600149D6F /* Defaults.plist in Resources */,
+				63C288011E58B68000EA418B /* tweets.db in Resources */,
 				63C4F29C1E4DF294000C721C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -406,8 +812,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63F029E21E55AFC500149D6F /* TTACoreAssembly.m in Sources */,
+				63F029F91E56FDA600149D6F /* TTATweetListAssembly.m in Sources */,
+				63C2880C1E5A32FD00EA418B /* TTATweetsListDataDisplayManager.m in Sources */,
+				63AC671F1E5CE0240056D210 /* TTASettingsViewController.m in Sources */,
+				63F029E91E55D04D00149D6F /* TTATweet.m in Sources */,
+				63C288041E58C19B00EA418B /* TTAFMDBDataStorage.m in Sources */,
+				63F029D31E4FC10900149D6F /* TTATwitterTimestampFieldBuilder.m in Sources */,
+				63F029CB1E4FA81B00149D6F /* TTATwitterAuthorizationFieldBuilder.m in Sources */,
+				63C287FB1E587BB500EA418B /* TTATweetMapper.m in Sources */,
+				63F02A071E5797A400149D6F /* TTANetworkOperation.m in Sources */,
+				63F029C01E4F608500149D6F /* NSCharacterSet+TTANoEscaped.m in Sources */,
+				63F029CF1E4FBD6800149D6F /* TTATwitterNonceFieldBuilder.m in Sources */,
+				63F029DC1E4FCA4D00149D6F /* TTAHMACSHA1HashingAlgorithm.m in Sources */,
 				632B336D1E4E407C00A168AF /* TTAAppDelegate.m in Sources */,
+				6353320D1E5B8E2500CF1335 /* TTATweetsListInteractor.m in Sources */,
+				63F029C71E4FA46900149D6F /* TTATwitterHeadersBuilder.m in Sources */,
+				63AC67291E5CEAE20056D210 /* TTAServicesAssembly.m in Sources */,
+				63C287FE1E58987200EA418B /* TTATweetCell.m in Sources */,
+				63F029F31E56F89A00149D6F /* TTAJSONParser.m in Sources */,
+				63AC672E1E5CEEF00056D210 /* TTASettingsScreenAssembly.m in Sources */,
+				63C287F51E58784200EA418B /* TTATimelineResponceValidator.m in Sources */,
+				63C287F81E587A0400EA418B /* TTATweetsMapper.m in Sources */,
+				63F029BC1E4F2C5A00149D6F /* TTATwitterRequestBuilder.m in Sources */,
+				63F029DF1E4FCCBB00149D6F /* TTATwitterSignatureBuilder.m in Sources */,
+				63F029F61E56FCBE00149D6F /* TTATweetListViewController.m in Sources */,
+				6353320A1E5B3FFA00CF1335 /* TTATweetCellObject.m in Sources */,
+				63AC67241E5CE56C0056D210 /* TTASettingsServiceBase.m in Sources */,
 				63C4F2931E4DF294000C721C /* main.m in Sources */,
+				631E1EA91E5D9959007133DD /* NSError+TTAErrors.m in Sources */,
+				63F029FD1E5714FA00149D6F /* TTATweetsServiceBase.m in Sources */,
+				63F029D71E4FC3D100149D6F /* TTATwitterSignatureBaseStringBuilder.m in Sources */,
+				63C287F21E58654400EA418B /* TTAOperationsFactoryBase.m in Sources */,
+				63F029B81E4F1E6700149D6F /* TTANetworkClientBase.m in Sources */,
+				63F02A011E57611600149D6F /* TTAAsyncOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

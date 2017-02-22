@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ConsumerKey</key>
+	<string>VSWO2NLuZ5DmzHlFVOlHP8SBN</string>
+	<key>ConsumerSecret</key>
+	<string>HAMVuoUAxJsRkUVJ2QcXxYSCMHxSlPXeeMVgph7I3cYXxaBGkN</string>
+	<key>AccessToken</key>
+	<string>1690568660-8bUII3PWiFj28Posce4nDm2giSyc7ct9Sf8L1q1</string>
+	<key>AccessTokenSecret</key>
+	<string>LhhAcpIM8DmlXisWVcXeYGdHE1sTurR7xVnvh2vCj1Vwf</string>
+	<key>APIURL</key>
+	<string>NSURL(https://api.twitter.com)</string>
+	<key>TimelineEndpoint</key>
+	<string>/1.1/statuses/user_timeline.json</string>
+	<key>TimelineMethod</key>
+	<string>GET</string>
+	<key>DatabaseName</key>
+	<string>tweets.db</string>
+</dict>
+</plist>

@@ -2,7 +2,46 @@ PODS:
   - FMDB (2.6.2):
     - FMDB/standard (= 2.6.2)
   - FMDB/standard (2.6.2)
+  - INSPullToRefresh (1.1.5)
+  - libextobjc (0.4.1):
+    - libextobjc/EXTADT (= 0.4.1)
+    - libextobjc/EXTConcreteProtocol (= 0.4.1)
+    - libextobjc/EXTKeyPathCoding (= 0.4.1)
+    - libextobjc/EXTNil (= 0.4.1)
+    - libextobjc/EXTSafeCategory (= 0.4.1)
+    - libextobjc/EXTScope (= 0.4.1)
+    - libextobjc/EXTSelectorChecking (= 0.4.1)
+    - libextobjc/EXTSynthesize (= 0.4.1)
+    - libextobjc/NSInvocation+EXT (= 0.4.1)
+    - libextobjc/NSMethodSignature+EXT (= 0.4.1)
+    - libextobjc/RuntimeExtensions (= 0.4.1)
+    - libextobjc/UmbrellaHeader (= 0.4.1)
+  - libextobjc/EXTADT (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTConcreteProtocol (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTKeyPathCoding (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTNil (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSafeCategory (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTScope (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSelectorChecking (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSynthesize (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/NSInvocation+EXT (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/NSMethodSignature+EXT (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/RuntimeExtensions (0.4.1)
+  - libextobjc/UmbrellaHeader (0.4.1)
   - SBJson5 (5.0.0)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
   - Typhoon (3.6.0):
     - Typhoon/DeallocNotifier (= 3.6.0)
     - Typhoon/IntrospectionUtils (= 3.6.0)
@@ -14,14 +53,20 @@ PODS:
 
 DEPENDENCIES:
   - FMDB (~> 2.6)
+  - INSPullToRefresh (~> 1.1)
+  - libextobjc (~> 0.4)
   - SBJson5 (~> 5.0)
+  - SDWebImage (~> 4.0)
   - Typhoon (~> 3.6)
 
 SPEC CHECKSUMS:
   FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  INSPullToRefresh: 112ae2c295d2b3a76daa9dff86e7ef40ed002c47
+  libextobjc: a650fc1bf489a3d3a9bc2e621efa3e1006fc5471
   SBJson5: 20d321dc587addeb3b21466d13de2f99dc8fe620
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
   Typhoon: 551cc8fae881d0f4b20ddafc6d276da3e867f61f
 
-PODFILE CHECKSUM: 36b9e62a3eaaa5ff3b2e3765997a6020d7eca991
+PODFILE CHECKSUM: 0a41415352677bf305f2e996f9ff1f50615f439f
 
-COCOAPODS: 1.2.0.beta.1
+COCOAPODS: 1.2.0

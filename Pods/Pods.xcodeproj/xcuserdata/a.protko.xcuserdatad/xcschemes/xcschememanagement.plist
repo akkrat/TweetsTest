@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>INSPullToRefresh.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-TweetsTest.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -24,7 +29,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>SDWebImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Typhoon.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>libextobjc.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -32,7 +47,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>28868ADAFD267277AB77D63E268E36E5</key>
+		<key>2A1B960522C43C4CC2AE11AF7F5F445A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3E5DDCF9C6A74B52E4B64C4256EA47D6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4AE9B725CFC7B2BA6F446AC06CAAAEBE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4B648A5243D85FDE5353BBBF530770FE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>62DE94A840BD77A59537B524EA9A73C4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -47,12 +82,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>EB3B2096A8F76EEC974DC8A271F3D546</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>F668E3FE7EB794E056B7D283E6F0F0EB</key>
+		<key>F5D92C23CCED08C5DA8D3A2BEB7808C7</key>
 		<dict>
 			<key>primary</key>
 			<true/>

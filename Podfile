@@ -7,6 +7,9 @@ target 'TweetsTest' do
   pod 'SBJson5', '~> 5.0'
   pod 'Typhoon', '~> 3.6'
   pod 'FMDB', '~> 2.6'
+  pod 'libextobjc', '~> 0.4'
+  pod 'INSPullToRefresh', '~> 1.1'
+  pod 'SDWebImage', '~> 4.0'
 
   target 'TweetsTestTests' do
     inherit! :search_paths
